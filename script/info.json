@@ -1,0 +1,17 @@
+var employees = `[
+  {
+  "name":"Fran", 
+  "email":"fran@index.com",
+  "image":"src='https://images.unsplash.com/photo-1561390223-a3a7f2cf6ed9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80'"
+  },
+  {
+    "name":"Bill",
+    "email":"bill@index.com",
+    "image":"src='https://images.unsplash.com/photo-1574352067721-72d5913bd35c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'"
+  },
+    {
+      "name":"Fritz",
+       "email":"fritz@index.com",
+       "image":"src='https://images.unsplash.com/photo-1591102972305-213abaa76d6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80'"
+       }
+       ]`

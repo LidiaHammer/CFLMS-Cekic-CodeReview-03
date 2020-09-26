@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insurance Calculator</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <img src="../images/logo.png" alt="logo" />
+        <a href="https://www.codefactory.wien"
+          ><img id="bannerNav" src="../images/banner.png" alt="bannerNav"
+        /></a>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="info.html">Team</a></li>
+        </ul>
+      </nav>
+      <!-- main part -->
+      <div id="mainPart">
+        <!-- background picture and heading -->
+        <div id="background">
+          <img
+            id="backgroundPicture"
+            src="../images/traffic.jpg"
+            alt="traffic"
+          />
+          <p id="backgroundPictureText">Car Insurance</p>
+        </div>
+        <!-- paragraph in the middle of page -->
+        <p id="headingMiddle">Un-complicating car coverage</p>
+        <p id="paragraphMiddle">
+          Understanding your coverage options shouldn't be so hard. <br />
+          We'll guide you through available coverage types,
+          <br />
+          starting with who and what is covered.
+        </p>
+
+        <!-- calculator Box -->
+        <div id="calculatorBox">
+          <p>Great coverage begins with a custom quote</p>
+          <div id="inputBoxes">
+            <div class="singlebox">
+              <label>Your name:</label> <br />
+              <input class="inputstyle" type="text" id="nameInput" />
+            </div>
+
+            <div class="singlebox">
+              <label>Age:</label> <br />
+              <input class="inputstyle" type="number" id="ageInput" />
+            </div>
+            <div class="singlebox">
+              <label>Country:</label> <br />
+              <select class="inputstyle" id="select">
+                <option value="Austria">Austria</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Greece">Greece</option>
+              </select>
+            </div>
+            <div class="singlebox">
+              <label>Horsepower of your car:</label> <br />
+              <input class="inputstyle" type="number" id="horsepowerInput" />
+            </div>
+          </div>
+          <div class="singlebox">
+            <button type="submit" id="submit">Calculate</button>
+          </div>
+
+          <div id="result"></div>
+        </div>
+      </div>
+      <!-- Information cards -->
+
+      <div class="cards">
+        <div class="card">
+          <h1>What comes standard</h1>
+          <p>The coverage you need</p>
+          <ul>
+            <li>Bodily Injury Liability</li>
+            <li>Property Damage</li>
+            <li>Medical Payments</li>
+          </ul>
+          <hr />
+          <h2>Benefits</h2>
+          <p id="additionalText1">
+            12-month rate guarantee | 24/7 customer service| Lifetime Repair
+            Guarantee
+          </p>
+        </div>
+        <div class="card">
+          <h1>Add-on protection & coverage</h1>
+          <p>For more peace of mind</p>
+          <ul>
+            <li>Better Car Replacement</li>
+            <li>PTowing & Labor</li>
+            <li>Rental Car Coverage</li>
+          </ul>
+          <hr />
+          <h2>Earned Benefits</h2>
+          <p id="additionalText2">
+            Accident Forgiveness^1| New Car Replacement^TM
+          </p>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Team</a></li>
+          </ul>
+        </nav>
+        <div>
+          <img id="footerLogo" src="../images/logo.png" alt="logo" />
+        </div>
+        <p>Lidia Cekic - Code Factory 2018</p>
+      </footer>
+    </div>
+    <script src="../script/script.js"></script>
+  </body>
+</html>

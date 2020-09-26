@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 9em;
+  background-color: #fdf3f3;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header > img {
+  width: 20%;
+}
+
+header > a {
+  width: 60%;
+}
+
+#bannerNav {
+  width: 100%;
+}
+
+nav {
+  background-color: #82231d;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li > a {
+  padding: 0.4em 0.7em;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+#mainPart {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+#background {
+  width: 100%;
+  height: 40em;
+}
+
+#backgroundPicture {
+  width: 100%;
+  height: 100%;
+}
+
+#backgroundPictureText {
+  font-size: 3em;
+  color: white;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+#headingMiddle {
+  text-align: center;
+  color: grey;
+  font-size: 4vw;
+  background-color: #cecece;
+  padding-top: 2em;
+  margin: 0;
+}
+
+#paragraphMiddle {
+  text-align: center;
+  background-color: #cecece;
+  font-size: 2.5vw;
+  padding-bottom: 2em;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+#calculatorBox {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 38em;
+  width: 80%;
+  top: 7em;
+  left: 8em;
+  right: 8em;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0em 0.5em 0em 0.5em;
+  border: solid grey 0.2em;
+}
+
+#inputBoxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 18em;
+  width: 50em;
+  margin: 0em 2.5em 0 2.5em;
+}
+
+#calculatorBox p {
+  text-align: center;
+  height: 2.5em;
+  width: 70%;
+  font-size: 5vw;
+  color: #3a3a3a;
+}
+
+.inputstyle {
+  height: 100%;
+  width: 100%;
+}
+
+label {
+  font-size: 1.5em;
+  color: #3a3a3a;
+}
+
+.singlebox {
+  height: 2.5em;
+  width: 20em;
+  padding: 0.5em 1.5em 0.5em 1em;
+}
+
+button {
+  background-color: #4f8f42;
+  border: none;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-size: 2em;
+  border-radius: 1em;
+}
+
+#result {
+  text-align: center;
+  color: #4f8f42;
+  height: 2em;
+  width: 50em;
+  margin: 0;
+  font-size: 2em;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.card {
+  width: 40%;
+  height: 25em;
+  border: solid rgb(216, 212, 212) 0.1em;
+  border-top: solid black 0.2em;
+  padding: 2em 2em 2em 2em;
+  box-shadow: 0em 0.5em 0.5em 0 rgb(216, 212, 212);
+}
+
+.card h1 {
+  font-size: 2.5vw;
+  color: darkblue;
+  font-weight: normal;
+  margin: 0;
+}
+
+.card p {
+  font-size: 1.5vw;
+  color: #666;
+  padding: 0 5em 0 0em;
+}
+
+.card ul {
+  font-size: 1.5vw;
+  padding: 1em 0 2em 0em;
+  list-style: none;
+  list-style-position: inside;
+  color: #666464;
+}
+
+#additionalText1 {
+  color: #8d8989;
+}
+
+#additionalText2 {
+  color: #8d8989;
+}
+
+ul li {
+  padding: 0.5em 0 0.5em 0;
+}
+
+.card ul li:before {
+  content: '\2714\0020';
+  color: #9fd2d4;
+  padding: 0 0.3em 0 0.3em;
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 1em;
+  padding: 2em 0 0.5em 0;
+}
+
+hr {
+  border: 1px solid rgb(245, 242, 242);
+}
+
+footer {
+  background-color: black;
+}
+
+footer > nav {
+  font-size: 1em;
+}
+
+footer > div {
+  width: 100%;
+  text-align: right;
+}
+
+#footerLogo {
+  width: 20%;
+  padding-right: 5em;
+  padding-bottom: 2em;
+}
+
+footer > p {
+  font-size: 1.5em;
+  padding-bottom: 1.5em;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 1201px) {
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  #calculatorBox {
+    width: 27em;
+    margin-left: 7em;
+  }
+  #calculatorBox p {
+    font-size: 2.3em;
+  }
+  .card {
+    width: 40%;
+    height: 18em;
+    border: solid rgb(216, 212, 212) 0.1em;
+    border-top: solid black 0.2em;
+    padding: 2em 2em 2em 2em;
+    box-shadow: 0em 0.5em 0.5em 0 rgb(216, 212, 212);
+  }
+}
